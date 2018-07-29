@@ -67,7 +67,7 @@ int main(int argc, char* argv[]) {
 			int i;
 			printf("\n###########################################\n");
 			printf("\nDATA : ");
-			for(i=54; i<=70; i++) {
+			for(i=0; i<16; i++) {
 				printf("%c",packet[i]);
 				if (i == 70) {
 					printf("\n");
